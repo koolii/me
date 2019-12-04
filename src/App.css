@@ -1,5 +1,23 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Makinas';
+  src: url('./Makinas-4-Flat.otf');
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* a:hover {
+} */
+
+/* body {
+  font-family: Makinas;
+} */
+
+h3 {
+  color: cadetblue;
+  font-weight: bolder;
 }
 
 .App-logo {
@@ -7,16 +25,136 @@
 }
 
 .App-header {
+  align-items: center;
   background-color: #282c34;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
   font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 50%;
+}
+
+.navigationb {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 20px auto;
+  padding-inline-start: 0;
+}
+
+.navigationb li {
+  border: 3px solid white;
+  border-radius: 3px;
+  color: #f5f5f5;
+  margin: 10px;
+  padding: 10px;
+}
+
+.profile {
+  background-image: url(profile.jpg);
+  background-size: contain;
+  border: 3px solid white;
+  border-radius: 50%;
+  flex-grow: 0;
+  height: 200px;
+  width: 200px;
+}
+
+.sec_introduction {
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 50vh;
+}
+
+.sec_introduction_div {
+  border: 3px solid white;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 30vh;
+  padding: 10px;
+}
+
+.sec_profile {
+  background-color: #333;
+  display: flex;
+  min-height: 50vh;
+}
+
+.sec_history {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 25px;
+  min-height: 25vh;
+}
+
+.sec_skill {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50vh;
+  padding: 20px;
+}
+
+.sec_skill_div {
+  color: black;
+  min-height: 30vh;
+}
+
+.eee {
+  margin: 20px auto;
+  text-align: center;
+  width: 70%;
+}
+
+.sec_project {
+  background-color: #282c34;
+  display: flex;
+  min-height: 50vh;
+}
+
+footer {
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 30vh;
+  padding: 20px;
+}
+
+.button {
+  border: 3px solid cadetblue;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.copyright {
+  text-align: right;
 }
