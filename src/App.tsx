@@ -61,7 +61,7 @@ const App: React.FC = () => {
                 AngularJS等のSPAに関しても仕事内外での経験。
                 個人的なプロジェクトでjQUeryやTypeScriptでスクリプト等を作成。
                 大学の研究では、WebRTCの技術を使ったWEBアプリケーションを作成。
-                (Express,koa,React,Angular,TypeScript,Puppeteer)
+                (Express,koa,React,Vue,Angular,TypeScript,Puppeteer)
               </span>
             </div>
           </div>
@@ -207,6 +207,14 @@ const App: React.FC = () => {
             <span>PHP(7系),Magent(2.3系)</span>
           </div>
         </div>
+
+        <h2>Side jobs</h2>
+        <div>
+          <div>
+            <span>管理システム構築(Vue.js + Laravel)</span>
+          </div>
+        </div>
+
       </section> */}
 
       <footer>
